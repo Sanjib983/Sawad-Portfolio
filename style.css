@@ -8,7 +8,7 @@
 
 .main_container {
     background-color: #151312;
-    height: 850vh;
+    height: 780vh;
 }
 
 .home {
@@ -125,19 +125,20 @@ header {
 }
 
 .Left_con{
+    width: 19%;
     position: fixed;
-    margin-top: 130px;
-    margin-left: 200px;
-    top: 0;
-    left: 0;
+    top: 130px;
+    left: 150px;
+    margin-left: 0;
+    margin-top: 0;
 }
 
 .right_con{
+    width: 35%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 0px;
 }
 
 .right_con h1{
@@ -200,7 +201,7 @@ header {
     border-radius: 20px;
     padding: 20px 30px;
     width: 300px;
-    height: 250px;
+    height: 300px;
 }
 
 .b2{
@@ -215,7 +216,7 @@ header {
     border-radius: 20px;
     padding: 20px 30px;
     width: 370px;
-    height: 250px;
+    height: 300px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -445,7 +446,7 @@ header {
     }
 }
 
-/* Premium Tools */
+/* Premium Tools --------------------------------------------------*/
 
 .tool_box{
     display: flex;
@@ -454,6 +455,7 @@ header {
     gap: 20px;
     margin-top: 50px;
     width: 400px;
+
 }
 
 .tool_box:hover{
@@ -561,8 +563,8 @@ header {
 .Cradit{
     color: #998F8F;
     margin-top: 50px;
-    text-align: right;
-    margin-right: 250px;
+    text-align: center;
+    margin-right: 300px;
 }
 
 .Cradit h4 a{
