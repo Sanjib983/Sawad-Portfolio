@@ -217,6 +217,17 @@ header {
     height: 250px;
 }
 
+.main_box{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.num_con h1{
+    font-size: 60px;
+}
+
 @media only screen and (max-width: 600px) {
     .main {
         flex-direction: column;
