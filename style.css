@@ -180,8 +180,9 @@ header {
 .bbooxx{
     display: flex;
     flex-direction: row;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
+    margin-right: 170px;
     gap: 20px;
     margin-top: 40px;
 }
@@ -297,6 +298,7 @@ header {
         align-items: center;
         justify-content: center;
         gap: 15px;
+        margin-right: 0px;
     }
 
     .b1, .b2 {
@@ -318,8 +320,6 @@ header {
 .right_con_1{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-top: 0px;
     margin-left: 100px;
 }
