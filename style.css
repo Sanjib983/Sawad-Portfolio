@@ -184,7 +184,6 @@ header {
     justify-content: left;
     gap: 20px;
     margin-top: 40px;
-    margin-left: 100px;
 }
 
 .b1{
@@ -227,6 +226,14 @@ header {
         margin-left: 0;
         position: static;
         margin-top: 20px;
+    }
+
+    .right_con_1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 20px;
     }
 
     .right_con {
@@ -308,6 +315,7 @@ header {
 .right_con_1{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     margin-top: 0px;
     margin-left: 100px;
